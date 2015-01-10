@@ -1,7 +1,7 @@
 #Assembly Language Emulator
 The Assembly Language Emulator is an emulator for a stripped down version of assembly written in the Cincom Smalltalk programming language. The overall goal of this project was to create a GUI using Cincom's VisualWorks IDE while using some of the more interesting features of the Smalltalk language.
 
-To use the program download the [VisualWorks IDE] (http://www.cincomsmalltalk.com/main/products/visualworks/) and import this project. Note that this isn't pure Smalltalk code, it's VisualWorks' markup language used for importing programs.
+To use the program download the [VisualWorks IDE] (http://www.cincomsmalltalk.com/main/products/visualworks/) and import this project. Note that the .st file in this project isn't pure Smalltalk code, it's VisualWorks' markup language used for importing programs.
 
 The emulator contains several components:
 
