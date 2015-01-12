@@ -17,7 +17,7 @@ The emulator contains several components:
 * A zero-result bit. This bit is set if the last ADD instruction produced a zero result. This bit is cleared if the last ADD instruction produced a result different from zero. The bit is changed only after ADD instructions are executed.
 * An overflow bit. This bit is set whenever an ADD instruction produces an overflow (i.e., a result that cannot be stored in 2’s complement notation with 16 bits). It is cleared if the ADD instruction did not produce an overflow.
 
-This is the instruction set supported be this emulator:
+This is the instruction set supported by this emulator:
 * LDA <number>: Loads byte at data memory address number into Register A.
 * LDB <number>: Loads byte at data memory address number into Register B.
 * LDI <number>: Loads the number into Register A.
